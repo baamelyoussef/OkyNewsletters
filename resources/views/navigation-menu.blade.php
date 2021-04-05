@@ -6,7 +6,7 @@
                 <!-- Logo -->
                 <div class="flex-shrink-0 flex items-center">
                     <a href="{{ route('themechoose') }}">
-                        <x-jet-application-mark class="block h-9 w-auto" />
+                        <img src="https://zupimages.net/up/21/11/8qk8.png" width="80" class="block h-9 w-auto" />
                     </a>
                 </div>
 

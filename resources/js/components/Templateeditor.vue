@@ -58,9 +58,9 @@
             goBack(){
                 let type = localStorage.getItem('type');
                 if(type=="Buzzevent"){
-                    window.location.replace("http://127.0.0.1:8000/buzzevents");
+                    window.location.replace("https://okynewsletters.herokuapp.com/buzzevents");
                 }else {
-                    window.location.replace("http://127.0.0.1:8000/itskills");
+                    window.location.replace("https://okynewsletters.herokuapp.com/itskills");
                 }
             },
             showHtml() {

@@ -225,7 +225,7 @@
             },
             gotoRoute(){
                 localStorage.type = "ITSkills";
-                window.location.replace("http://127.0.0.1:8000/Templateeditor");
+                window.location.replace("https://okynewsletters.herokuapp.com/Templateeditor");
             },
             showsavelocalstorage(JsonT){
                 this.Json=JsonT;
@@ -238,7 +238,7 @@
             },
             createNew(){
                 localStorage.type=`ITSkills`;
-                window.location.replace("http://127.0.0.1:8000/newtemplate");
+                window.location.replace("https://okynewsletters.herokuapp.com/newtemplate");
             }
         },
         async mounted() {

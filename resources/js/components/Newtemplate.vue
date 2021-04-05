@@ -123,7 +123,7 @@
             },
             usetemp(){
                 setTimeout(()=>{
-                    window.location.replace("http://127.0.0.1:8000/Templateeditor");
+                    window.location.replace("https://okynewsletters.herokuapp.com/Templateeditor");
                 },1000)
             },
             addNewTemplate(){
